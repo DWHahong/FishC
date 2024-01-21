@@ -7,3 +7,5 @@
 ### Variable(变量)
 ## S1E5
 ### Constants And Macro Definitions(常量和宏定义)
+## S1E6
+### DataType(数据类型)
