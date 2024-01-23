@@ -11,3 +11,5 @@
 ### DataType(数据类型)
 ## S1E7
 ### ValueRange(取值范围)
+## S1E8
+### CharactersAndStrings(字符与字符串)
