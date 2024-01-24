@@ -13,3 +13,5 @@
 ### ValueRange(取值范围)
 ## S1E8
 ### CharactersAndStrings(字符与字符串)
+## S1E9
+### ArithmeticOperators(算数运算符)
