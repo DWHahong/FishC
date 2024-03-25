@@ -1,0 +1,35 @@
+/**
+ * @file Break0.c
+ * @author King
+ * @brief
+ * @version 0.1
+ * @date 2024-03-25
+ *
+ * @copyright Copyright (c) 2024
+ *
+ */
+
+#include <stdio.h>
+int main() {
+  long long i, num;
+  _Bool flag = 1;
+
+  printf("请输入一个整数:");
+  scanf("%lld", &num);
+
+  for (i = 2; i < num / 2; i++) {
+    if (num % i == 0) {
+      flag = 0;
+      break;
+    }
+  }
+  if (flag) {
+    printf("%lld是一个素数!\n", num);
+  } else {
+    printf("%lld不是一个素数!\n", num);
+  }
+
+  printf("i = %lld\n", i);
+
+  return 0;
+}
